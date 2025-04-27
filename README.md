@@ -1,44 +1,51 @@
-# Harshita Bisht Portfolio
+# 🚀 Harshita Bisht's Portfolio
 
-![GitHub repo size](https://img.shields.io/github/repo-size/harshitabisht05/new_portfolio)
-![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
-![GitHub forks](https://img.shields.io/github/forks/codewithsadee/vcard-personal-portfolio?style=social)
-[![Twitter Follow](https://img.shields.io/twitter/follow/codewithsadee_?style=social)](https://twitter.com/intent/follow?screen_name=codewithsadee_)
-[![YouTube Video Views](https://img.shields.io/youtube/views/SoxmIlgf2zM?style=social)](https://youtu.be/SoxmIlgf2zM)
+Welcome to my personal portfolio repository! This portfolio showcases my skills, projects, and experiences in the field of Computer Science, with a specialization in Cloud Computing and Virtualization Technologies.
 
-vCard is a fully responsive personal portfolio website, responsive for all devices, built using HTML, CSS, and JavaScript.
+## 👩‍💻 About Me
 
-## Demo
+I am a passionate Computer Science student at UPES, Dehradun, with a keen interest in cloud computing, web development, and problem-solving. I aim to leverage my technical expertise to drive innovation and solve real-world challenges.
 
-![vCard Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
-![vCard Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
+## 🌟 Portfolio Highlights
 
-## Prerequisites
+- 🚗 **QuickRide**: A web-based platform for booking rental vehicles, built with HTML, CSS, JavaScript, and MySQL. This project allows real-time vehicle availability, secure payment options, and user authentication.
 
-Before you begin, ensure you have met the following requirements:
+## 🛠️ Tech Stack
 
-* [Git](https://git-scm.com/downloads "Download Git") must be installed on your operating system.
+- **Frontend**: HTML, CSS, JavaScript
+- **Backend**: Node.js, Spring Boot
+- **Database**: MySQL
+- **Cloud**: AWS, Docker
 
-## Installing vCard
+## ✨ Features
 
-To install **vCard**, follow these steps:
+- 📱 **Responsive Design**: Ensures seamless viewing experience across devices.
+- 🔐 **User Authentication**: Provides secure login and registration for users.
+- ⚡ **Real-Time Data**: Displays up-to-date information and status of the projects.
+- ☁️ **Cloud Deployment**: Projects are hosted on cloud services for scalability and availability.
 
-Linux and macOS:
+## 🛠️ Installation
 
-```bash
-sudo git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
+To view the portfolio locally, follow these steps:
 
-Windows:
+1. Clone the repository:
 
-```bash
-git clone https://github.com/codewithsadee/vcard-personal-portfolio.git
-```
+    ```bash
+    git clone https://github.com/harshitabisht05/new_portfolio.git
+    ```
 
-## Contact
+2. Navigate into the project folder:
 
-If you want to contact me you can reach me at [Twitter](https://www.twitter.com/codewithsadee).
+    ```bash
+    cd portfolio
+    ```
 
-## License
+3. Open the `index.html` file in your browser to view the portfolio.
 
-MIT
+## 📬 Contact
+
+Feel free to reach out to me via:
+
+- 📧 **Email**: harshitabisht0515@gmail.com
+- 💼 **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/harshitabisht0511)
+- 🐙 **GitHub**: [GitHub Profile](https://github.com/harshitabisht05)
