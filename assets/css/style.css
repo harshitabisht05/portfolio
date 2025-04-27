@@ -288,6 +288,7 @@ main {
   #SIDEBAR
 \*-----------------------------------*/
 
+
 .sidebar {
   margin-bottom: 15px;
   max-height: 112px;
@@ -1477,4 +1478,24 @@ main {
   .timeline-text { max-width: 700px; }
 
 }
+}
+
+.btn-link {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: hsl(45, 100%, 72%);
+  color:black;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 500;
+  border-radius: 30px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  
+  margin-bottom: 30px; /* <-- This adds space after button */
+}
+
+.btn-link:hover {
+  background-color:  hsl(45, 50%, 50%);
+  transform: translateY(-2px);
 }
