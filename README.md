@@ -1,4 +1,4 @@
-# vCard - Personal portfolio
+# Harshita Bisht Portfolio
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/harshitabisht05/new_portfolio)
 ![GitHub stars](https://img.shields.io/github/stars/codewithsadee/vcard-personal-portfolio?style=social)
