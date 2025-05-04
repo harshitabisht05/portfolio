@@ -372,11 +372,6 @@ main {
   visibility: visible;
 }
 
-.contacts-list {
-  display: grid;
-  grid-template-columns: 1fr;
-  gap: 16px;
-}
 
 .contact-item {
   min-width: 100%;
@@ -908,7 +903,7 @@ main {
   margin-bottom: 30px;
 }
 
-.contact-form p {
+.contact-form p,h3 {
   font-size: 1.3rem;
   margin-bottom: 20px;
   color: #ffffff;
@@ -922,9 +917,11 @@ main {
 }
 
 .contact-form li {
-  font-size: 1.1rem;
+  display: block;
+  margin-bottom: 4px;
+  font-size: 1rem;
   color: hsl(45, 100%, 72%);
-  margin-bottom: 12px;
+  font-weight: 500;
 }
 
 .contact-form a {
@@ -937,7 +934,56 @@ main {
   text-decoration: underline;
   color: #2563eb; /* Slightly darker on hover */
 }
+.contact-form form {
+  margin-top: 10px;
+  padding: 20px;
+  border: 1px solid hsla(0, 0%, 84%, 0.2);
+  border-radius: 10px;
+  background-color: #1a1a1a; /* Slight transparent background */
+}
+.contact-form label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 1rem;
+  color: hsl(45, 100%, 72%);
+  font-weight: 500;
+}
 
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 8px 10px;
+  margin-bottom: 12px;
+  border: 1px solid #2d2d2d;
+  border-radius: 6px;
+  background-color: #111;
+  color: #fff;
+  font-size: 0.95rem;
+}
+.contact-form textarea {
+  resize: vertical;
+  min-height: 100px;
+}
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: hsl(45, 100%, 72%);
+  outline: none;
+}
+.contact-form button {
+  background-color: hsl(45, 100%, 72%);
+  color: #000000;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+.contact-form button:hover {
+  background-color:  hsl(45, 50%, 50%);
+  transform: translateY(-2px);
+}
 /*-----------------------------------*\
   #RESPONSIVE
 \*-----------------------------------*/
@@ -1225,9 +1271,6 @@ main {
 
   .navbar-link { --fs-8: 15px; }
 
-  /**
-   * ABOUT
-   */
 
   /* testimonials modal */
 
