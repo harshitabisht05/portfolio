@@ -1078,9 +1078,14 @@ main {
 
   .sidebar-info { gap: 25px; }
 
-  .avatar-box { border-radius: 30px; }
+  .avatar-box { border-radius: 110px; }
 
-  .avatar-box img { width: 120px; }
+  .avatar-box img {
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    object-fit: cover;
+  }
 
   .info-content .name { margin-bottom: 15px; }
 
