@@ -26,13 +26,13 @@
   ), hsl(240, 2%, 13%);
   --bg-gradient-yellow-1: linear-gradient(
     to bottom right, 
-    hsl(45, 100%, 71%) 0%, 
-    hsla(36, 100%, 69%, 0) 50%
-  );
+    hsl(220, 100%, 71%) 0%, 
+    hsla(220, 100%, 69%, 0) 50%
+  ); /* changed yellow to blue */
   --bg-gradient-yellow-2: linear-gradient(
     135deg, 
-    hsla(45, 100%, 71%, 0.251) 0%, 
-    hsla(35, 100%, 68%, 0) 59.86%
+    hsla(220, 100%, 71%, 0.251) 0%, 
+    hsla(220, 100%, 68%, 0) 59.86%
   ), hsl(240, 2%, 13%);
   --border-gradient-onyx: linear-gradient(
     to bottom right, 
@@ -41,8 +41,8 @@
   );
   --text-gradient-yellow: linear-gradient(
     to right, 
-    hsl(45, 100%, 72%), 
-    hsl(35, 100%, 68%)
+    hsl(220, 100%, 72%), 
+    hsl(220, 100%, 68%)
   );
 
   /* solid */
@@ -54,8 +54,8 @@
   --smoky-black: hsl(0, 0%, 7%);
   --white-1: hsl(0, 0%, 100%);
   --white-2: hsl(0, 0%, 98%);
-  --orange-yellow-crayola: hsl(45, 100%, 72%);
-  --vegas-gold: hsl(45, 54%, 58%);
+  --orange-yellow-crayola: hsl(220, 100%, 72%); /* changed yellow to blue */
+  --vegas-gold: hsl(220, 54%, 58%); /* changed yellow to blue */
   --light-gray: hsl(0, 0%, 84%);
   --light-gray-70: hsla(0, 0%, 84%, 0.7);
   --bittersweet-shimmer: hsl(0, 43%, 51%);
@@ -307,8 +307,37 @@ main {
 }
 
 .avatar-box {
-  background: var(--bg-gradient-onyx);
-  border-radius: 20px;
+   background: none;
+  border-radius: 50%;
+  width: 180px;
+  height: 180px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  box-shadow: 0 8px 32px 0 rgba(0,0,0,0.15), 0 2px 8px 0 rgba(0,0,0,0.15);
+  border: none;
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.avatar-box:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 24px 6px #2563eb, 0 8px 32px 0 rgba(0,0,0,0.15), 0 2px 8px 0 rgba(0,0,0,0.15);
+}
+
+.avatar-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 50%;
+  border: 2px solid #fff;      /* White inner border for contrast */
+  box-shadow: 0 2px 12px 0 #2563eb44;
+  transition: box-shadow 0.3s;
+}
+.avatar-box img:hover {
+  box-shadow: 0 0 24px 6px #2563eb, 0 8px 32px 0 rgba(0,0,0,0.15), 0 2px 8px 0 rgba(0,0,0,0.15);
 }
 
 .info-content .name {
@@ -684,7 +713,6 @@ main {
   height: calc(100% + 50px);
   background: var(--jet);
 }
-
 .timeline-item::after {
   content: "";
   position: absolute;
@@ -920,7 +948,7 @@ main {
   display: block;
   margin-bottom: 4px;
   font-size: 1rem;
-  color: hsl(45, 100%, 72%);
+  color: hsl(220, 100%, 72%); /* changed yellow to blue */
   font-weight: 500;
 }
 
@@ -935,17 +963,17 @@ main {
   color: #2563eb; /* Slightly darker on hover */
 }
 .contact-form form {
-  margin-top: 10px;
-  padding: 20px;
+ margin-top: 10px;
+  padding: 16px;        /* Reduce from 20px to 16px */
   border: 1px solid hsla(0, 0%, 84%, 0.2);
   border-radius: 10px;
-  background-color: #1a1a1a; /* Slight transparent background */
+  background-color: #1a1a1a;
 }
 .contact-form label {
   display: block;
   margin-bottom: 4px;
   font-size: 1rem;
-  color: hsl(45, 100%, 72%);
+  color: hsl(220, 100%, 72%); /* changed yellow to blue */
   font-weight: 500;
 }
 
@@ -953,24 +981,21 @@ main {
 .contact-form textarea {
   width: 100%;
   padding: 8px 10px;
-  margin-bottom: 12px;
+  margin-bottom: 8px;   /* Reduce from 12px to 8px */
   border: 1px solid #2d2d2d;
   border-radius: 6px;
   background-color: #111;
   color: #fff;
   font-size: 0.95rem;
 }
-.contact-form textarea {
-  resize: vertical;
-  min-height: 100px;
-}
+
 .contact-form input:focus,
 .contact-form textarea:focus {
-  border-color: hsl(45, 100%, 72%);
+  border-color: hsl(220, 100%, 72%);
   outline: none;
 }
 .contact-form button {
-  background-color: hsl(45, 100%, 72%);
+  background-color: hsl(220, 100%, 72%); /* changed yellow to blue */
   color: #000000;
   padding: 12px 20px;
   border: none;
@@ -981,7 +1006,7 @@ main {
   transition: background-color 0.3s ease;
 }
 .contact-form button:hover {
-  background-color:  hsl(45, 50%, 50%);
+  background-color:  hsl(220, 50%, 50%); /* changed yellow to blue */
   transform: translateY(-2px);
 }
 /*-----------------------------------*\
@@ -1080,13 +1105,6 @@ main {
 
   .avatar-box { border-radius: 110px; }
 
-  .avatar-box img {
-    width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 2px solid #333; /* Optional: add a border */
-  }
 
   .info-content .name { margin-bottom: 15px; }
 
@@ -1535,7 +1553,7 @@ main {
 .btn-link {
   display: inline-block;
   padding: 12px 24px;
-  background-color: hsl(45, 100%, 72%);
+  background-color: hsl(220, 100%, 72%); /* changed yellow to blue */
   color:black;
   text-decoration: none;
   font-size: 16px;
@@ -1548,6 +1566,6 @@ main {
 }
 
 .btn-link:hover {
-  background-color:  hsl(45, 50%, 50%);
+  background-color:  hsl(220, 50%, 50%); /* changed yellow to blue */
   transform: translateY(-2px);
 }
