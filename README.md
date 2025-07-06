@@ -2,6 +2,8 @@
 [View my Resume (PDF)](Resume.pdf)
 
 Live Link: [Harshita's Portfolio](https://harshitabisht-portfolio.netlify.app/)
+
+
 Welcome to my personal portfolio repository! This portfolio showcases my skills, projects, and experiences in the field of Computer Science, with a specialization in Cloud Computing and Virtualization Technologies.
 
 ## 👩‍💻 About Me
