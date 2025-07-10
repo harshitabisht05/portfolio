@@ -1,0 +1,89 @@
+{
+  "personalInfo": {
+    "name": "Harshita Bisht",
+    "title": "Computer Science Student",
+    "email": "harshitabisht0515@gmail.com",
+    "birthday": "2004-11-05",
+    "location": "Haldwani, Uttarakhand, India",
+    "linkedin": "https://www.linkedin.com/in/harshitabisht0511",
+    "github": "https://github.com/harshitabisht05",
+    "phone": "+91 9458365644",
+    "avatar": "assets/images/my-avatar.png"
+  },
+  "about": {
+    "resume": "assets/images/Resume.pdf",
+    "paragraphs": [
+      "I’m a passionate Software Engineering student specializing in Cloud Computing and Virtualization Technologies, currently pursuing my B.Tech at UPES, Dehradun. I enjoy turning complex technical challenges into intuitive, user-friendly digital solutions through thoughtful design and clean engineering.",
+      "I’ve contributed to a variety of impactful projects, including QuickRide, an on-demand vehicle rental platform where I designed and developed responsive web interfaces using HTML, CSS, and JavaScript with a strong focus on UI/UX. Another project, Voice Agent, allows users to interact with digital platforms through voice-based commands, enhancing accessibility and engagement.",
+      "Currently, I’m working as a Frontend Intern at Sentienta Quality AI, where I contribute to the development of interactive and AI-driven web interfaces. In parallel, I’m also interning at IBM as a Software Development Engineer, where I’m expanding my backend and cloud infrastructure skills in a professional setting.",
+      "Beyond technical development, I’ve applied my creativity in roles like content and poster design at the ARJ Foundation, working on social awareness campaigns. I believe in blending innovation with empathy—creating solutions that are not only efficient and scalable but also visually engaging and human-centered."
+    ]
+  },
+  "education": [
+    {
+      "title": "University of Petroleum and Energy Studies",
+      "duration": "2022 — Present",
+      "description": "Bachelor of Technology in Computer Science - Cloud Computing and Virtualization Technologies"
+    },
+    {
+      "title": "CBSE",
+      "duration": "2021 — 2022",
+      "description": "Intermediate from Saraswati Academy School, Haldwani"
+    },
+    {
+      "title": "CBSE",
+      "duration": "2019 — 2020",
+      "description": "High School from Saraswati Academy School, Haldwani"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Frontend Intern at Sentienta Quality AI",
+      "duration": "June 2024 — Present",
+      "description": "Building intelligent and responsive user interfaces using Next.js and Tailwind CSS, collaborating with AI teams for feature integration."
+    },
+    {
+      "title": "SDE Intern at IBM",
+      "duration": "June 2024 — Present",
+      "description": "Assisting in backend development, cloud infrastructure, and scalable enterprise software solutions."
+    },
+    {
+      "title": "Social Intern at ARJ Foundation",
+      "duration": "June 2023 — July 2023",
+      "description": "Created posters and slogans for social awareness campaigns and managed Excel-based data tracking and reporting."
+    }
+  ],
+  "skills": [
+    { "name": "C language", "level": 80 },
+    { "name": "Python", "level": 50 },
+    { "name": "HTML", "level": 90 },
+    { "name": "CSS", "level": 90 },
+    { "name": "Java", "level": 30 }
+  ],
+  "projects": [
+    {
+      "title": "QuickRide(Not Live)",
+      "image": "assets/images/QuickRideproject.png",
+      "category": "Web Development",
+      "live": false,
+      "description": "An on-demand rental vehicle booking platform with real-time availability and secure payment options."
+    },
+    {
+      "title": "Portfolio",
+      "image": "assets/images/portfolioproject.png",
+      "link": "https://harshitabisht-portfolio.netlify.app/",
+      "category": "Web Development",
+      "live": true,
+      "description": "A personal portfolio showcasing my skills, projects, resume, and contact information in an elegant UI."
+    },
+    {
+      "title": "Voice Agent",
+      "image": "assets/images/voiceagentproject.png",
+      "link": "https://voiceagent-harshita.netlify.app/",
+      "category": "Web Development",
+      "live": true,
+      "description": "A browser-based tool that enables users to interact with websites using voice commands."
+    }
+
+  ]
+}

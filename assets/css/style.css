@@ -1569,3 +1569,54 @@ main {
   background-color:  hsl(220, 50%, 50%); /* changed yellow to blue */
   transform: translateY(-2px);
 }
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(15, 15, 20, 0.85); /* semi-transparent dark overlay */
+  backdrop-filter: blur(6px);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.popup-content {
+  background: linear-gradient(145deg, #1e1e2f, #12121c); /* soft gradient dark */
+  padding: 30px;
+  border-radius: 16px;
+  text-align: center;
+  max-width: 90%;
+  width: 340px;
+  box-shadow: 0 0 20px rgba(93, 93, 129, 0.6); /* soft bluish glow */
+  border: 1px solid #3b3355;
+  color: #fefcfd;
+  font-family: 'Poppins', sans-serif;
+}
+
+.popup-content p {
+  margin-bottom: 20px;
+  font-size: 17px;
+  color: #bfcde0; /* subtle text color */
+}
+
+#popup-close {
+  background-color: #5d5d81;
+  color: #fff;
+  align-items: center;
+  padding: 10px 24px;
+  border: none;
+  border-radius: 8px;
+  font-size: 15px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#popup-close:hover {
+  background-color: #7a7ac2;
+  color: #000;
+  align-items: center;
+}
