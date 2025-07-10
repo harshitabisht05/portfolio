@@ -71,7 +71,7 @@
     {
       "title": "Portfolio",
       "image": "assets/images/portfolioproject.png",
-      "link": "https://harshitabisht-portfolio.netlify.app/",
+      "link": "https://harshitabisht05.github.io/portfolio/",
       "category": "Web Development",
       "live": true,
       "description": "A personal portfolio showcasing my skills, projects, resume, and contact information in an elegant UI."
@@ -79,7 +79,7 @@
     {
       "title": "Voice Agent",
       "image": "assets/images/voiceagentproject.png",
-      "link": "https://voiceagent-harshita.netlify.app/",
+      "link": "https://harshitabisht05.github.io/voice-agent-mvp/",
       "category": "Web Development",
       "live": true,
       "description": "A browser-based tool that enables users to interact with websites using voice commands."
