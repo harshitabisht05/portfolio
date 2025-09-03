@@ -39,12 +39,12 @@
   "experience": [
     {
       "title": "Frontend Intern at Sentienta Quality AI",
-      "duration": "June 2024 — Present",
+      "duration": "June 2025 — July 2025",
       "description": "Building intelligent and responsive user interfaces using Next.js and Tailwind CSS, collaborating with AI teams for feature integration."
     },
     {
       "title": "SDE Intern at IBM",
-      "duration": "June 2024 — Present",
+      "duration": "June 2025 — July 2025",
       "description": "Assisting in backend development, cloud infrastructure, and scalable enterprise software solutions."
     },
     {
@@ -58,7 +58,9 @@
     { "name": "Python", "level": 50 },
     { "name": "HTML", "level": 90 },
     { "name": "CSS", "level": 90 },
-    { "name": "Java", "level": 30 }
+    { "name": "Java", "level": 30 },
+    { "name": "Next.js", "level": 70 },
+    { "name": "Tailwind", "level": 70 }
   ],
   "projects": [
     {
