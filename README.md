@@ -6,7 +6,7 @@ A modern frontend developer portfolio built using **Next.js**, **Tailwind CSS**,
 
 ## 🚀 Live Demo
 
-[View Portfolio](https://your-vercel-link.vercel.app)
+[View Portfolio](https://portfolio-gray-one-76.vercel.app/)
 
 ---
 
