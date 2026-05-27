@@ -86,7 +86,7 @@ Modern portfolio with scalable frontend architecture and responsive UI engineeri
 The portfolio is fully optimized for:
 - Desktop
 - Tablet
-- Mobile devices e                 (Note: The original text appears to have some formatting issues here; assuming it means mobile devices.)
+- Mobile devices
 
 # ♿ Accessibility & Performance
 Focused on:
