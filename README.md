@@ -1,36 +1,112 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Harshita Bisht — Frontend Developer Portfolio
 
-## Getting Started
+A modern frontend developer portfolio built using **Next.js**, **Tailwind CSS**, and **Framer Motion** featuring responsive UI, smooth animations, dynamic project pages, and modern frontend engineering practices.
 
-First, run the development server:
+---
+
+## 🚀 Live Demo
+
+[View Portfolio](https://your-vercel-link.vercel.app)
+
+---
+
+## ✨ Features
+
+- Modern responsive UI
+- Dynamic project case study pages
+- Smooth page transitions
+- Scroll progress indicator
+- Command palette (`Ctrl + K / Cmd + K`)
+- Animated section reveals
+- Premium glassmorphism UI
+- Device mockups for project showcase
+- Loader animation
+- Mobile-first responsive design
+- Optimized frontend architecture
+
+---
+
+## 🛠️ Tech Stack
+
+### Frontend
+- Next.js
+- React
+- Tailwind CSS
+- Framer Motion
+
+### Tools & Deployment
+- Git
+- GitHub
+- Vercel
+
+---
+
+## 📂 Project Structure
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+app/
+components/
+data/
+public/
 ```
+# 📸 Featured Projects
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## QuickRide
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Rental vehicle booking platform with responsive UI, authentication workflows, and MySQL integration.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## Voice Agent MVP
 
-## Learn More
+Voice-controlled assistant using Web Speech API with real-time browser interaction.
 
-To learn more about Next.js, take a look at the following resources:
+## Frontend Portfolio
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Modern portfolio with scalable frontend architecture and responsive UI engineering.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+# ⚡ Getting Started
+- Clone the repository:
+  ```bash
+  git clone https://github.com/yourusername/portfolio.git
+  ```
+- Navigate into the project:
+  ```bash
+  cd portfolio
+  ```
+- Install dependencies:
+  ```bash
+  npm install
+  ```
+- Run development server:
+  ```bash
+  npm run dev
+  ```
+- Open in browser: [http://localhost:3000](http://localhost:3000)
 
-## Deploy on Vercel
+# 📱 Responsive Design
+The portfolio is fully optimized for:
+- Desktop
+- Tablet
+- Mobile devices e                 (Note: The original text appears to have some formatting issues here; assuming it means mobile devices.)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+# ♿ Accessibility & Performance
+Focused on:
+- Semantic structure
+- Smooth navigation
+- Responsive layouts
+- Optimized image loading
+- Accessible interactions
+- Lightweight animations
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+# 🎨 UI Highlights
+design system with glassmorphism, smooth hover interactions, gradient accents, animated transitions, sticky project sidebar, and custom command menu.
+
+# 📬 Contact Details:
+**Email:** harshitabisht0515@gmail.com  
+**LinkedIn:** [https://www.linkedin.com/in/harshitabisht0511](https://www.linkedin.com/in/harshitabisht0511)  
+**GitHub:** [https://github.com/harshitabisht05](https://github.com/harshitabisht05)
+
+# 📄 License:
+This project is open-source and available under the MIT License.
+
+# 👩‍💻 Author:
+Harshita Bisht - Frontend Developer focused on building scalable and modern web experiences.
