@@ -126,7 +126,7 @@ export const projects = [
 
   github: "https://github.com/harshitabisht05/portfolio.git",
 
-  live: "https://harshitabisht05.github.io/portfolio/",
+  live: "https://portfolio-gray-one-76.vercel.app/",
 
   metrics: [
     "Responsive Design",
