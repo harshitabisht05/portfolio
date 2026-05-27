@@ -1,55 +1,36 @@
-# 🚀 Harshita Bisht's Portfolio
-[View my Resume (PDF)](Resume.pdf)
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-Live Link: [Harshita's Portfolio](https://harshitabisht05.github.io/portfolio/)
+## Getting Started
 
+First, run the development server:
 
-Welcome to my personal portfolio repository! This portfolio showcases my skills, projects, and experiences in the field of Computer Science, with a specialization in Cloud Computing and Virtualization Technologies.
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## 👩‍💻 About Me
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-I am a passionate Computer Science student at UPES, Dehradun, with a keen interest in cloud computing, web development, and problem-solving. I aim to leverage my technical expertise to drive innovation and solve real-world challenges.
+You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
 
-## 🌟 Portfolio Highlights
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-- 🚗 **QuickRide**: A web-based platform for booking rental vehicles, built with HTML, CSS, JavaScript, and MySQL. This project allows real-time vehicle availability, secure payment options, and user authentication.
+## Learn More
 
-## 🛠️ Tech Stack
+To learn more about Next.js, take a look at the following resources:
 
-- **Frontend**: HTML, CSS, JavaScript
-- **Backend**: Node.js, Spring Boot
-- **Database**: MySQL
-- **Cloud**: AWS, Docker
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-## ✨ Features
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-- 📱 **Responsive Design**: Ensures seamless viewing experience across devices.
-- 🔐 **User Authentication**: Provides secure login and registration for users.
-- ⚡ **Real-Time Data**: Displays up-to-date information and status of the projects.
-- ☁️ **Cloud Deployment**: Projects are hosted on cloud services for scalability and availability.
+## Deploy on Vercel
 
-## 🛠️ Installation
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-To view the portfolio locally, follow these steps:
-
-1. Clone the repository:
-
-    ```bash
-    git clone https://github.com/harshitabisht05/new_portfolio.git
-    ```
-
-2. Navigate into the project folder:
-
-    ```bash
-    cd portfolio
-    ```
-
-3. Open the `index.html` file in your browser to view the portfolio.
-
-## 📬 Contact
-
-Feel free to reach out to me via:
-
-- 📧 **Email**: harshitabisht0515@gmail.com
-- 💼 **LinkedIn**: [LinkedIn Profile](https://www.linkedin.com/in/harshitabisht0511)
-- 🐙 **GitHub**: [GitHub Profile](https://github.com/harshitabisht05)
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
