@@ -16,9 +16,10 @@ export default function Navbar() {
 
   useEffect(() => {
     const handleScroll = () => {
-      const sections = navLinks.map((link) =>
-        document.querySelector(link.href)
-      );
+      const sections = navLinks
+        .map((link) => document.querySelector(link.href))
+        .filter((section) => section)
+        .sort((a, b) => a.offsetTop - b.offsetTop);
 
       let current = "#projects";
 

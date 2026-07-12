@@ -10,16 +10,19 @@ const projects = [
     title: "QuickRide",
 
     description:
-      "Rental vehicle booking platform with responsive UI, authentication workflows, and MySQL integration.",
+      "A full-stack vehicle rental platform built with React and FastAPI, featuring JWT authentication, real-time vehicle availability, secure booking workflows, and a responsive user experience.",
 
-    tech: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "MySQL",
-    ],
+    image: "/projects/quickridev2.png",
 
-    image: "/projects/quickride.png",
+      tech: [
+      "React",
+      "Tailwind CSS",
+      "FastAPI",
+      "Python",
+      "SQLAlchemy",
+      "JWT",
+      "MySQL"
+    ]
   },
 
   {

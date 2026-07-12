@@ -5,44 +5,50 @@ export const projects = [
     title: "QuickRide",
 
     description:
-      "A rental vehicle booking platform with authentication, responsive UI, dynamic pricing, and MySQL integration.",
+      "A full-stack vehicle rental platform built with React and FastAPI, featuring JWT authentication, real-time vehicle availability, secure booking workflows, and a responsive user experience.",
 
-    image: "/projects/quickride.png",
+    image: "/projects/quickridev2.png",
 
-    tech: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "MySQL",
+      tech: [
+      "React",
+      "Tailwind CSS",
+      "FastAPI",
+      "Python",
+      "SQLAlchemy",
+      "JWT",
+      "MySQL"
     ],
 
     features: [
-      "Responsive booking interface",
-      "Dynamic pricing system",
-      "Vehicle management",
-      "Authentication workflow",
-      "Real-time booking handling",
+      "Secure user authentication",
+      "Vehicle search and booking workflow",
+      "Real-time vehicle availability",
+      "Dynamic rental pricing",
+      "Responsive mobile-first interface",
+      "Vehicle management dashboard"
     ],
 
     architecture: [
-      "Frontend built using HTML, CSS, and JavaScript",
-      "MySQL database integration",
-      "Dynamic UI rendering",
-      "Responsive mobile-first design",
+      "MySQL-powered data storage",
+      "Authentication and booking workflow",
+      "Responsive UI optimized for desktop and mobile",
+      "Deployed using Vercel with Git-based workflow"
     ],
 
     challenges:
       "Managing dynamic booking data and creating a responsive interface across devices while maintaining usability.",
 
-    github: "#",
+    github: "https://github.com/harshitabisht05/quickride.git",
 
-    live: "#",
+    live: "https://quickride-six.vercel.app/",
 
     metrics: [
-  "Responsive Design",
-  "Authentication System",
-  "Cloud Deployment",
-]
+        "Responsive Design",
+        "Authentication",
+        "Dynamic Booking",
+        "Real-Time Availability",
+        "Cloud Deployment"
+      ]
   },
 
   {
