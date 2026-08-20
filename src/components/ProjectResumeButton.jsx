@@ -58,8 +58,8 @@ export default function ProjectResumeButtons() {
           style={{ x: "-50%" }} // Safe Framer Motion centering strategy
         >
           {/* QuickRide */}
-          <motion.a
-            href="/projects/quickride"
+          <motion.Link
+            to ="/projects/quickride"
             variants={projectVariants}
             whileHover="hover"
             custom={0}
@@ -69,11 +69,11 @@ export default function ProjectResumeButtons() {
             <p className="truncate px-1 pt-1 text-center text-[10px] font-medium leading-tight text-gray-900">
               QuickRide
             </p>
-          </motion.a>
+          </motion.Link>
 
           {/* Voice Agent */}
-          <motion.a
-            href="/projects/voice-agent"
+          <motion.Link
+            to="/projects/voice-agent"
             variants={projectVariants}
             whileHover="hover"
             custom={1}
@@ -83,11 +83,11 @@ export default function ProjectResumeButtons() {
             <p className="truncate px-1 pt-1 text-center text-[10px] font-medium leading-tight text-gray-900">
               Voice Agent
             </p>
-          </motion.a>
+          </motion.Link>
 
           {/* Portfolio */}
-          <motion.a
-            href="/projects/portfolio"
+          <motion.Link
+            to="/projects/portfolio"
             variants={projectVariants}
             whileHover="hover"
             custom={2}
@@ -97,7 +97,7 @@ export default function ProjectResumeButtons() {
             <p className="truncate px-1 pt-1 text-center text-[10px] font-medium leading-tight text-gray-900">
               Portfolio
             </p>
-          </motion.a>
+          </motion.Link>
         </motion.div>
 
         {/* Projects text */}
