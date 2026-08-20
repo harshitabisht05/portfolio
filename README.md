@@ -1,112 +1,75 @@
 # Harshita Bisht — Frontend Developer Portfolio
 
-A modern frontend developer portfolio built using **Next.js**, **Tailwind CSS**, and **Framer Motion** featuring responsive UI, smooth animations, dynamic project pages, and modern frontend engineering practices.
+A modern frontend developer portfolio built with **React**, **Vite**, **Tailwind CSS**, and **Framer Motion**. It includes responsive UI, animated sections, project case studies, and reusable frontend components.
 
----
-
-## 🚀 Live Demo
+## Live Demo
 
 [View Portfolio](https://portfolio-gray-one-76.vercel.app/)
 
----
-
-## ✨ Features
+## Features
 
 - Modern responsive UI
-- Dynamic project case study pages
-- Smooth page transitions
+- React Router project case-study pages
+- Smooth scrolling and page navigation
 - Scroll progress indicator
-- Command palette (`Ctrl + K / Cmd + K`)
+- Command palette (`Ctrl + K` / `Cmd + K`)
 - Animated section reveals
-- Premium glassmorphism UI
-- Device mockups for project showcase
-- Loader animation
+- Glassmorphism UI
+- Project device mockups
+- Initial page loader
 - Mobile-first responsive design
-- Optimized frontend architecture
 
----
+## Tech Stack
 
-## 🛠️ Tech Stack
-
-### Frontend
-- Next.js
-- React
-- Tailwind CSS
+- React 19
+- Vite
+- Tailwind CSS v4
 - Framer Motion
+- React Router
+- Lucide React
+- cmdk
 
-### Tools & Deployment
-- Git
-- GitHub
-- Vercel
+## Project Structure
 
----
+```text
+portfolio/
+├── public/
+├── src/
+│   ├── components/
+│   ├── data/
+│   ├── pages/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── package.json
+└── vite.config.js
+```
 
-## 📂 Project Structure
+## Getting Started
 
 ```bash
-app/
-components/
-data/
-public/
+git clone https://github.com/harshitabisht05/portfolio.git
+cd portfolio
+npm install
+npm run dev
 ```
-# 📸 Featured Projects
 
-## QuickRide
+The Vite development server will print the local URL in the terminal.
 
-Rental vehicle booking platform with responsive UI, authentication workflows, and MySQL integration.
+## Featured Projects
 
-## Voice Agent MVP
+### QuickRide
+Full-stack vehicle rental and booking platform using React, FastAPI, SQLAlchemy, JWT authentication, and MySQL.
 
-Voice-controlled assistant using Web Speech API with real-time browser interaction.
+### Voice Agent MVP
+Voice-controlled assistant using the Web Speech API for browser-based interaction.
 
-## Frontend Portfolio
+### Frontend Portfolio
+This portfolio itself, built with React, Vite, Tailwind CSS, and Framer Motion.
 
-Modern portfolio with scalable frontend architecture and responsive UI engineering.
+## Contact
 
-# ⚡ Getting Started
-- Clone the repository:
-  ```bash
-  git clone https://github.com/yourusername/portfolio.git
-  ```
-- Navigate into the project:
-  ```bash
-  cd portfolio
-  ```
-- Install dependencies:
-  ```bash
-  npm install
-  ```
-- Run development server:
-  ```bash
-  npm run dev
-  ```
-- Open in browser: [http://localhost:3000](http://localhost:3000)
-
-# 📱 Responsive Design
-The portfolio is fully optimized for:
-- Desktop
-- Tablet
-- Mobile devices
-
-# ♿ Accessibility & Performance
-Focused on:
-- Semantic structure
-- Smooth navigation
-- Responsive layouts
-- Optimized image loading
-- Accessible interactions
-- Lightweight animations
-
-# 🎨 UI Highlights
-design system with glassmorphism, smooth hover interactions, gradient accents, animated transitions, sticky project sidebar, and custom command menu.
-
-# 📬 Contact Details:
-**Email:** harshitabisht0515@gmail.com  
-**LinkedIn:** [https://www.linkedin.com/in/harshitabisht0511](https://www.linkedin.com/in/harshitabisht0511)  
-**GitHub:** [https://github.com/harshitabisht05](https://github.com/harshitabisht05)
-
-# 📄 License:
-This project is open-source and available under the MIT License.
-
-# 👩‍💻 Author:
-Harshita Bisht - Frontend Developer focused on building scalable and modern web experiences.
+- Email: harshitabisht0515@gmail.com
+- LinkedIn: https://www.linkedin.com/in/harshitabisht0511
+- GitHub: https://github.com/harshitabisht05
