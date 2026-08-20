@@ -1,4 +1,7 @@
 import { motion } from "framer-motion";
+import  { Link } from "react-router-dom";
+
+const MotionLink = motion.create(Link);
 
 export default function ProjectResumeButtons() {
   // Container animation for sequential project card entry
@@ -58,7 +61,7 @@ export default function ProjectResumeButtons() {
           style={{ x: "-50%" }} // Safe Framer Motion centering strategy
         >
           {/* QuickRide */}
-          <motion.Link
+          <MotionLink
             to ="/projects/quickride"
             variants={projectVariants}
             whileHover="hover"
@@ -69,10 +72,10 @@ export default function ProjectResumeButtons() {
             <p className="truncate px-1 pt-1 text-center text-[10px] font-medium leading-tight text-gray-900">
               QuickRide
             </p>
-          </motion.Link>
+          </MotionLink>
 
           {/* Voice Agent */}
-          <motion.Link
+          <MotionLink
             to="/projects/voice-agent"
             variants={projectVariants}
             whileHover="hover"
@@ -83,10 +86,10 @@ export default function ProjectResumeButtons() {
             <p className="truncate px-1 pt-1 text-center text-[10px] font-medium leading-tight text-gray-900">
               Voice Agent
             </p>
-          </motion.Link>
+          </MotionLink>
 
           {/* Portfolio */}
-          <motion.Link
+          <MotionLink
             to="/projects/portfolio"
             variants={projectVariants}
             whileHover="hover"
@@ -97,7 +100,7 @@ export default function ProjectResumeButtons() {
             <p className="truncate px-1 pt-1 text-center text-[10px] font-medium leading-tight text-gray-900">
               Portfolio
             </p>
-          </motion.Link>
+          </MotionLink>
         </motion.div>
 
         {/* Projects text */}
