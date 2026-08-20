@@ -15,7 +15,7 @@ body::before {
   content: "";
   position: fixed;
   inset: 0;
-  background-image: url("https://www.transparenttextures.com/patterns/noise.png");
+  background-image: url("/noise.png");
   opacity: 0.03;
   pointer-events: none;
   z-index: 999;
