@@ -1,12 +1,24 @@
-import { Link, useParams } from "react-router-dom";
+import { useEffect } from "react";
+import { Link, useNavigate, useParams } from "react-router-dom";
 import { motion, useScroll, useSpring } from "framer-motion";
 import DeviceMockup from "../components/DeviceMockup";
 import { projects } from "../data/projects";
 import Reveal from "../components/Reveal";
 
 export default function ProjectDetails() {
-  const { slug } = useParams();
+
+   const { slug } = useParams();
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "instant",
+    });
+  }, [slug]);
+
   const project = projects.find((p) => p.slug === slug);
+  const navigate = useNavigate();
 
   // Page Scroll Progress Bar (Top of page)
   const { scrollYProgress } = useScroll();
@@ -15,12 +27,17 @@ export default function ProjectDetails() {
   if (!project) {
     return (
       <main className="flex min-h-screen items-center justify-center bg-[#050505] text-white">
-        <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="text-center">
-          <h1 className="mb-6 text-4xl font-bold">Project not found</h1>
-          <Link to="/" className="text-blue-400 hover:text-cyan-300 transition-colors">
-            ← Back to Portfolio
-          </Link>
-        </motion.div>
+        <motion.div initial={{ opacity: 0, x: -20 }} animate={{ opacity: 1, x: 0 }}>
+  <button
+    onClick={() => navigate(-1)}
+    className="group mb-16 inline-flex items-center gap-3 text-gray-400 transition hover:text-blue-400"
+  >
+    <span className="transition-transform group-hover:-translate-x-2">
+      ←
+    </span>
+    Back to Portfolio
+  </button>
+</motion.div>
       </main>
     );
   }
