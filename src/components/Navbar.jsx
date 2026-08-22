@@ -13,28 +13,56 @@ export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
   useEffect(() => {
-    const handleScroll = () => {
-      const sections = navLinks
-        .map((link) => document.querySelector(link.href))
-        .filter(Boolean)
-        .sort((a, b) => a.offsetTop - b.offsetTop);
+  const handleScroll = () => {
+    const sections = navLinks
+      .map((link) => ({
+        href: link.href,
+        element: document.querySelector(link.href),
+      }))
+      .filter((item) => item.element);
 
-      let current = null;
+    const navbarOffset = 180;
 
-      sections.forEach((section) => {
-        if (section.getBoundingClientRect().top <= 150) {
-          current = `#${section.id}`;
-        }
-      });
+    let current = null;
+    let closestDistance = Infinity;
 
-      setActive(current);
-    };
+    sections.forEach(({ href, element }) => {
+      const rect = element.getBoundingClientRect();
 
-    window.addEventListener("scroll", handleScroll);
-    handleScroll();
+      // Distance from the section's top to our navbar detection line
+      const distance = Math.abs(rect.top - navbarOffset);
 
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
+      // Section has reached the detection line
+      if (rect.top <= navbarOffset && distance < closestDistance) {
+        closestDistance = distance;
+        current = href;
+      }
+    });
+
+    // At the very top, don't highlight anything
+    if (window.scrollY < 100) {
+      current = null;
+    }
+
+    // Always make Contact active at the bottom
+    const atBottom =
+      window.innerHeight + window.scrollY >=
+      document.documentElement.scrollHeight - 10;
+
+    if (atBottom) {
+      current = "#contact";
+    }
+
+    setActive(current);
+  };
+
+  window.addEventListener("scroll", handleScroll, { passive: true });
+  handleScroll();
+
+  return () => {
+    window.removeEventListener("scroll", handleScroll);
+  };
+}, []);
 
   return (
     <div className="fixed left-0 top-6 z-50 w-full px-4">
